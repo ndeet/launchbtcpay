@@ -18,18 +18,18 @@ alias = '[ALIAS]'
 reverseproxy = 'nginx'
 acme_uri = 'https://acme-v01.api.letsencrypt.org/directory'
 coinmap = {
-	'btc': '/var/lib/docker/volumes/generated_bitcoin_datadir/_data/blocks',
-	'lbtc': '/var/lib/docker/volumes/generated_elements_datadir/_data/liquidv1/blocks',
-	'ltc': '/var/lib/docker/volumes/generated_litecoin_datadir/_data/blocks',
-	'grs': '/var/lib/docker/volumes/generated_groestlcoin_datadir/_data/blocks/',
-	'btg': '/var/lib/docker/volumes/generated_bgold_datadir/_data/blocks',
-	'ftc': '/var/lib/docker/volumes/generated_feathercoin_datadir/_data/blocks',
-	'via': '/var/lib/docker/volumes/generated_viacoin_datadir/_data/blocks',
-	'doge': '/var/lib/docker/volumes/generated_dogecoin_datadir/_data/blocks',
-	'mona': '/var/lib/docker/volumes/generated_monacoin_datadir/_data/blocks',
-	'btx': '/var/lib/docker/volumes/generated_bitcore_datadir/_data/blocks/',
-	'dash': '/var/lib/docker/volumes/generated_dash_datadir/_data/blocks/',
-	'xmr': '/var/lib/docker/volumes/generated_xmr_data/_data/lmdb/',
+	'btc': '/var/lib/docker/volumes/generated_bitcoin_datadir/_data',
+	'lbtc': '/var/lib/docker/volumes/generated_elements_datadir/_data',
+	'ltc': '/var/lib/docker/volumes/generated_litecoin_datadir/_data',
+	'grs': '/var/lib/docker/volumes/generated_groestlcoin_datadir/_data',
+	'btg': '/var/lib/docker/volumes/generated_bgold_datadir/_data',
+	'ftc': '/var/lib/docker/volumes/generated_feathercoin_datadir/_data',
+	'via': '/var/lib/docker/volumes/generated_viacoin_datadir/_data',
+	'doge': '/var/lib/docker/volumes/generated_dogecoin_datadir/_data',
+	'mona': '/var/lib/docker/volumes/generated_monacoin_datadir/_data',
+	'btx': '/var/lib/docker/volumes/generated_bitcore_datadir/_data',
+	'dash': '/var/lib/docker/volumes/generated_dash_datadir/_data',
+	'xmr': '/var/lib/docker/volumes/generated_xmr_data/_data',
 }
 coinmapTestnet = {
 	'btc': '/var/lib/docker/volumes/generated_bitcoin_datadir/_data/testnet3/blocks',
